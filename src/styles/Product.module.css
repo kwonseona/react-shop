@@ -1,0 +1,165 @@
+.dark.topMenu {
+  color: #000;
+}
+
+.productDetailsContainer {
+  max-width: 1344px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px 16px 32px 16px;
+}
+
+.productImageBox {
+  width: 320px;
+  height: 320px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productImageBox {
+  width: 320px;
+  height: 320px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.productImageBox img {
+  width: 288px;
+  height: 288px;
+  object-fit: contain;
+}
+
+.productDetailsBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 48px;
+  row-gap: 8px;
+}
+
+.titleAndDescription {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.breadcrumbsTitle {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.new {
+  width: 52px;
+  height: 20px;
+  padding: 0px 9px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: rgb(31, 178, 166);
+}
+
+.breadcrumbsPrice {
+  width: 928px;
+  height: 36px;
+  margin: 8px 0px 16px 0px;
+  font-size: 30px;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  color: rgb(250, 204, 21);
+}
+
+.rating {
+  width: 928px;
+  height: 36px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.ratingText {
+  padding-left: 10px;
+}
+
+.breadcrumbsBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnPrimary {
+  height: 46px;
+  padding: 0 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(100, 26, 230);
+}
+
+.btnPrimary:hover {
+  color: #fff;
+  background-color: rgb(80, 20, 184);
+}
+
+.btnOutline {
+  height: 46px;
+  padding: 0 16px;
+  border: 1px solid rgb(166, 173, 186);
+  border-radius: 8px;
+  font-weight: 600;
+  color: rgb(166, 173, 186);
+  cursor: pointer;
+  background: none;
+}
+
+.btnOutline:hover {
+  color: rgb(42, 48, 60);
+  background-color: rgb(166, 173, 186);
+}
+
+@media (max-width: 1024px) {
+  .productDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .breadcrumbsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .productImageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .productDetailsBody {
+    padding: 32px 4px;
+  }
+}

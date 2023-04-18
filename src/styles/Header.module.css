@@ -1,0 +1,63 @@
+:root {
+  --header-bg-color: rgb(25, 29, 36);
+  --bg-color: rgb(42, 48, 60);
+  --menu-bg-color: rgb(42, 48, 60);
+  --text-color: #fff;
+  --menu-color: rgb(166, 173, 186);
+  --dark-hover-color: rgba(31, 41, 55, 0.2);
+  --search-bg-color: #4b5563;
+  --search-text-color: #fff;
+  --search-place-color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.dark {
+  --header-bg-color: #fff;
+  --bg-color: #fff;
+  --menu-bg-color: #fff;
+  --hover-color: rgba(166, 173, 186, 0.2);
+  --dark-hover-color: rgba(96, 108, 124, 0.2);
+  --text-color: rgb(25, 29, 36);
+  --search-bg-color: rgb(209, 213, 219);
+  --search-text-color: rgb(25, 29, 36);
+}
+
+.dark.header {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  width: 100%;
+  background-color: var(--header-bg-color);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.menuContainer {
+  max-width: 1344px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+.title {
+  width: 100.39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--text-color);
+}

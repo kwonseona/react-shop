@@ -1,0 +1,9 @@
+.dark.body {
+  background-color: #fff;
+  color: #000;
+}
+
+.body {
+  background-color: rgb(42, 48, 60);
+  color: rgb(166, 173, 186);
+}

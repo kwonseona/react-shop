@@ -1,0 +1,85 @@
+.dark .cardImg {
+  border: 1px solid rgb(229, 231, 235);
+}
+
+.dark .cardBody {
+  color: #000;
+  background-color: rgb(243, 244, 246);
+}
+
+.card {
+  width: 100%;
+  height: 478px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardBox:hover .cardImg img {
+  transform: scale(1.2);
+}
+
+.cardImg {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.cardImg img {
+  width: 120px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cardBody {
+  width: 100%;
+  height: 204px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  cursor: pointer;
+  color: rgb(166, 173, 186);
+  background-color: rgb(55, 65, 81);
+}
+
+.cardTitle {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardPrice {
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    margin: 0 auto;
+  }
+
+  .cardImg {
+    width: 100%;
+  }
+
+  .cardBody {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardTitle {
+    width: 100%;
+  }
+}

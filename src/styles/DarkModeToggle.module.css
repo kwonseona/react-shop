@@ -1,0 +1,40 @@
+.swap {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 16px;
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.rotated {
+  transform: rotate(360deg);
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+}
+
+.hiSun {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+
+.hiMoon {
+  width: 28px;
+  height: 28px;
+  color: rgb(25, 29, 36);
+}
